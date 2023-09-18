@@ -1,0 +1,116 @@
+from button_data_1_lvl import (
+    CATALOG_BUTTON_VALUE,
+    RETURN_BUTTON_VALUE,
+    MAKE_DONATION_BUTTON_VALUE,
+    HEALT_BUTTON_VALUE,
+    ABOUT_PUPPIES_BUTTON_VALUE,
+    EDUCATION_AND_LEISURE_BUTTON_VALUE,
+    GOODS_FOR_DOGS_BUTTON_VALUE,
+    MESSAGE_USEFUL_INFO_BUTTON_VALUE,
+    HELP_WITH_PETFOOD_BUTTON_VALUE
+)
+
+MONOBANK_BUTTON_VALUE = "Monobank"
+PRIVAT_BANK_BUTTON_VALUE = "Приватбанк"
+
+MAKE_DONATION_BUTTONS = (
+    MONOBANK_BUTTON_VALUE,
+    PRIVAT_BANK_BUTTON_VALUE,
+    RETURN_BUTTON_VALUE
+)
+
+FEEDING_BUTTON_VALUE = "🦴 Харчування"
+VACCINATION_BUTTON_VALUE = "💉 Обробки/щеплення"
+DRINKS_BUTTON_VALUE = "💧 Напої"
+POISONING_BUTTON_VALUE = "🚑 Отруєння"
+
+HEALT_BUTTONS = (
+    FEEDING_BUTTON_VALUE,
+    VACCINATION_BUTTON_VALUE,
+    DRINKS_BUTTON_VALUE, 
+    POISONING_BUTTON_VALUE,
+    RETURN_BUTTON_VALUE
+)
+
+ETHOLOGY_BUTTON_VALUE = "📖 Етологія"
+DIETETICS_BUTTON_VALUE = "🍼 Дієтологія"
+VETERINARIAN_BUTTON_VALUE = "🏥 Ветеринарія"
+TRAINING_BUTTON_VALUE = "🐕‍🦺 Дресирування"
+
+ABOUT_PUPPIES_BUTTONS = (
+    ETHOLOGY_BUTTON_VALUE,
+    DIETETICS_BUTTON_VALUE,
+    VETERINARIAN_BUTTON_VALUE,
+    TRAINING_BUTTON_VALUE,
+    RETURN_BUTTON_VALUE
+)
+
+CYNOLOGISTS_BUTTON_VALUE = "👩 Кінологи"
+SCHOOLS_BUTTON_VALUE = "🏢 Школи для собак"
+CHANNELS_ABOUT_DOGS_BUTTON_VALUE = "📢 Канали про собак"
+ABOUT_GAMES_BUTTON_VALUE = "⚾️ Про ігри з собакою"
+STAY_WITH_BUTTON_VALUE = "👩‍🦱 Перетримка/догсіттер"
+AGILITY_BUTTON_VALUE = "🏃 Аджиліті"
+GET_USED_MUZZLE_BUTTON_VALUE = "📒 Привчання до намордника"
+CLOTHES_TRAININGS_BUTTON_VALUE = "🦺 Одяг для дресування"
+
+EDUCATION_AND_LEISURE_BUTTONS = (
+    CYNOLOGISTS_BUTTON_VALUE,
+    SCHOOLS_BUTTON_VALUE,
+    CHANNELS_ABOUT_DOGS_BUTTON_VALUE,
+    ABOUT_GAMES_BUTTON_VALUE,
+    STAY_WITH_BUTTON_VALUE,
+    AGILITY_BUTTON_VALUE,
+    GET_USED_MUZZLE_BUTTON_VALUE,
+    CLOTHES_TRAININGS_BUTTON_VALUE,
+    RETURN_BUTTON_VALUE
+)
+
+AMMUNITION_BUTTON_VALUE = "🦺 Амуніція"
+CARE_BUTTON_VALUE = "🛁 Догляд та гігієна"
+TOYS_BUTTON_VALUE = "🧸 Іграшки"
+CLOTHES_BUTTON_VALUE = "🛍 Одяг та аксесуари"
+FOOD_BUTTON_VALUE = "🥩 Продукти харчування та ін."
+PLACE_BUTTON_VALUE = "🛏 Місце"
+
+GOODS_FOR_DOGS_BUTTONS = (
+    AMMUNITION_BUTTON_VALUE,
+    CARE_BUTTON_VALUE,
+    TOYS_BUTTON_VALUE,
+    CLOTHES_BUTTON_VALUE,
+    FOOD_BUTTON_VALUE,
+    PLACE_BUTTON_VALUE,
+    RETURN_BUTTON_VALUE
+)
+
+MESSAGE_MAKE_DONATION_BUTTON_VALUE = "Оберіть зручний метод оплати 👇"
+
+MESSAGE_CATALOG_BUTTON_VALUE = "Подивитися на хвостатих можна за посиланням 👇"
+
+MESSAGE_HELP_WITH_PETFOOD_BUTTON_VALUE = (
+    '''Допомогу кормом, обробками від кліщів, медикаментами\
+ви можете відправити за наступними реквізитами:\
+        \nЛесенко Катерина В'ячеславівна\
+        \n068 867 48 83\
+        \nКиїв\
+        \nВідділення НП 80
+        \nДякуємо! 🙏'''
+)
+
+BUTTON_BY_TEXT_2_LVL = {
+    MAKE_DONATION_BUTTON_VALUE: MAKE_DONATION_BUTTONS,
+    HELP_WITH_PETFOOD_BUTTON_VALUE: (RETURN_BUTTON_VALUE, ),
+    HEALT_BUTTON_VALUE: HEALT_BUTTONS,
+    ABOUT_PUPPIES_BUTTON_VALUE: ABOUT_PUPPIES_BUTTONS,
+    EDUCATION_AND_LEISURE_BUTTON_VALUE: EDUCATION_AND_LEISURE_BUTTONS,
+    GOODS_FOR_DOGS_BUTTON_VALUE: GOODS_FOR_DOGS_BUTTONS
+}
+BUTTON_CLICK_MESSAGE_2_LVL = {
+    MAKE_DONATION_BUTTON_VALUE: MESSAGE_MAKE_DONATION_BUTTON_VALUE,
+    CATALOG_BUTTON_VALUE: MESSAGE_CATALOG_BUTTON_VALUE,
+    HELP_WITH_PETFOOD_BUTTON_VALUE: MESSAGE_HELP_WITH_PETFOOD_BUTTON_VALUE,
+    HEALT_BUTTON_VALUE: MESSAGE_USEFUL_INFO_BUTTON_VALUE,
+    ABOUT_PUPPIES_BUTTON_VALUE: MESSAGE_USEFUL_INFO_BUTTON_VALUE,
+    EDUCATION_AND_LEISURE_BUTTON_VALUE: MESSAGE_USEFUL_INFO_BUTTON_VALUE,
+    GOODS_FOR_DOGS_BUTTON_VALUE: MESSAGE_USEFUL_INFO_BUTTON_VALUE
+}
